@@ -21,7 +21,7 @@
 }
 .mybtn {
   width: 140px;
-  height: 30px;
+  height: 35px;
   border-radius: 10px;
   outline: none;
   border: 2px solid black;
@@ -29,9 +29,15 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-right: 20px;
+  
+}
+.mybtn:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }
 #value {
   font-size: 6rem;
-  font-weight: bold;
-  --ff-secondary: "Open Sans", sans-serif;
+  font-weight: lighter;
+  /* --ff-secondary: "Open Sans", sans-serif; */
 }
