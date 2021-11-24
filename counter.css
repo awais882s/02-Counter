@@ -29,7 +29,8 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-right: 20px;
-  
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .mybtn:hover{
   cursor: pointer;
