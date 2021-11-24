@@ -12,12 +12,14 @@ btns.forEach(function (btn) {
     } else if (styles.contains("inc")) {
       count++;
     }
-    else {
-      count  = 0;
+     else {
+      count = 0;
     }
     if (count > 0) {
-      value.style.color = "Green"
-      
+      value.style.color = "Green";
+    }
+    if (count < 0) {
+      value.style.color = "red";
     }
     value.textContent = count;
   });
